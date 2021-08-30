@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 120vh; 
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    width: 100%;
+    height: 12vh; 
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding: 0px 50px;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.459) 88%,white); */
+    /* background: linear-gradient(rgb(210, 2, 2),rgb(190, 2, 2),rgb(170, 2, 2),rgb(150, 2, 2)); */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#header img{
+    width: 150px;
+}
+#header nav ul li{
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 40px; 
+
+}
+#header nav ul li a{
+    text-decoration: none;
+    color: red; 
+}
+#header nav ul li a:hover{
+    color: lime;
+    border-bottom: 2px solid red;
+    transition: 0.5s;
+}
+#Musics1{
+    display: flex;
+    padding-left: 190px;
+    
+}
+
+
+#headCenter{
+    width: 100%;
+    height: 35vh; 
+    padding-left: 50px;
+    justify-content: center;
+    place-items: center;
+}
+#headCenter p{
+    color: white;
+    font-size: 35px;
+    text-shadow: 3px 5px 9px rgba(122, 52, 2, 0.986);
+    cursor: pointer;
+    justify-content: center;
+    
+}
+#headCenter p:hover{
+    text-shadow: 3px 5px 9px rgb(240, 102, 4);
+}
+#Musics2{
+    display: flex;
+    padding-left: 190px;
+}
+
+
+
+ 
+#headCenter img{
+    width: 100px;
+    height: 100px;
+    margin-top: 75px;
+    box-shadow: 2px 2px 12px orange;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+#Musics3{
+    display: flex;
+    padding-left: 190px;
+}
