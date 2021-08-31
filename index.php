@@ -199,7 +199,7 @@
                 }
             };
             pic3.onclick= function (){
-                if(music1.paused)
+                if(music3.paused)
                 {
                     music3.play();
                     pic3.src = "image/pause.png";
